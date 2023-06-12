@@ -38,4 +38,9 @@ searchBtn.addEventListener("click" , ()=>{
     checkWeather(searchBox.value);
 })
 
+function enterKeyPressed(event) {
+    if (event.keyCode == 13) {    
+    checkWeather(searchBox.value);
+    }
+}
 // checkWeather();
