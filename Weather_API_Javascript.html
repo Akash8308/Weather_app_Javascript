@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather WebApplication</title>
+    <link rel="stylesheet" href="Weather_API_Javascript.css" />
+    <link type="script" href="Weather_API_Javascript.js" />
+  </head>
+  <body>
+    <link rel="stylesheet" href="Weather_API_Javascript.css" />
+    <div class="card">
+      <div class="search">
+        <input id="search-box" type="text" placeholder="Enter City Name" />
+        <button id="search-button">
+          <img
+            class="search-button-image"
+            src="./Images/search.png"
+            alt="search-button-image"
+          />
+        </button>
+      </div>
+      <div class="weather">
+        <img src="Images/clear.gif" class="icon" />
+        <h1 class="temp">22°C</h1>
+        <h2 class="city">Solapur</h2>
+        <div class="details">
+          <div class="col">
+            <img class="icon" src="Images/humidity.gif" />
+            <div>
+              <p class="humidity">50%</p>
+              <p class="title">humidity</p>
+            </div>
+          </div>
+          <div class="col">
+            <img class="icon" src="Images/wind.gif" />
+            <div>
+              <p class="wind">15km/hr</p>
+              <p class="title">Wind Speed</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="Weather_API_Javascript.js"></script>
+  </body>
+</html>
