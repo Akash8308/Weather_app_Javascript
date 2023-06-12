@@ -1,4 +1,4 @@
-const API_KEY='2a33030e4d8ab748e0d71be535debd18';
+const API_KEY='YOUR API KEY HERE';
 const searchBox = document.querySelector(".search input");
 const searchBtn = document.querySelector(".search");
 const weatherIcon = document.querySelector(".weather img");
